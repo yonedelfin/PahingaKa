@@ -193,13 +193,40 @@ p #text1 {
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
-    border-radius: 40px;
+    border-radius: 20px;
     background: white;
     color: #2b1055;
-    font-size: 1.5em;
-    transform: translateY(100px);
+    font-size: 1em;
+    margin-left: 50px;
+    /*remove if di gagana*/
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
+#btn2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#btn2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#btn2:hover span {
+    padding-right: 25px;
+}
+
+#btn2:hover span:after {
+    opacity: 1;
+    right: 0;
+}
 
 .column #heading2 {
     font-weight: 500;
@@ -213,12 +240,41 @@ p #text1 {
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
-    border-radius: 40px;
+    border-radius: 20px;
     background: white;
     color: #2b1055;
-    font-size: 1.5em;
-    transform: translateY(100px);
-}
+    font-size: 1em;
+    margin-left: 50px;
+    /*remove if di gagana*/
+    transition: all 0.5s;
+    cursor: pointer;
+    }
+
+#btn3 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    
+#btn3 span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+    
+#btn3:hover span {
+        padding-right: 25px;
+    }
+    
+#btn3:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
 
 .column #heading3 {
     font-weight: 500;
@@ -232,10 +288,40 @@ p #text1 {
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
-    border-radius: 40px;
+    border-radius: 20px;
     background: white;
     color: #2b1055;
-    font-size: 1.5em;
-    transform: translateY(100px);
+    font-size: 1em;
+    margin-left: 50px;
+    /*remove if di gagana*/
+    transition: all 0.5s;
+    cursor: pointer;
 }
+
+#btn4 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#btn4 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#btn4:hover span {
+    padding-right: 25px;
+}
+
+#btn4:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
 
