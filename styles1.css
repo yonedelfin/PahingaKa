@@ -88,7 +88,6 @@ section::before {
     border-right: 4px solid black;
     width: 25ch;
 }
-
 @keyframes type {
     0% {
         width: 0ch;
@@ -194,11 +193,34 @@ p #text1 {
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
-    border-radius: 20px;
+    border-radius: 40px;
     background: white;
     color: #2b1055;
-    font-size: 1em;
-    margin-left: 50px;
+    font-size: 1.5em;
+    transform: translateY(100px);
+    /*remove if di gagana*/
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#btn2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#btn2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#btn2:hover span {
+    padding-right: 25px;
 }
 
 .column #heading2 {
@@ -213,12 +235,36 @@ p #text1 {
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
-    border-radius: 20px;
+    border-radius: 40px;
     background: white;
     color: #2b1055;
-    font-size: 1em;
-    margin-left: 50px;
+    font-size: 1.5em;
+    transform: translateY(100px);
+    /*remove if di gagana*/
+    transition: all 0.5s;
+    cursor: pointer;
 }
+
+#btn3 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#btn3 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#btn3:hover span {
+    padding-right: 25px;
+}
+
 .column #heading3 {
     font-weight: 500;
     margin-left: 50px;
@@ -231,10 +277,34 @@ p #text1 {
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
-    border-radius: 20px;
+    border-radius: 40px;
     background: white;
     color: #2b1055;
-    font-size: 1em;
-    margin-left: 50px;
+    font-size: 1.5em;
+    transform: translateY(100px);
+    /*remove if di gagana*/
+    transition: all 0.5s;
+    cursor: pointer;
 }
+
+#btn4 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#btn4 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#btn4:hover span {
+    padding-right: 25px;
+}
+
 
