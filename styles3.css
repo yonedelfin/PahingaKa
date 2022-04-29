@@ -79,6 +79,7 @@ header ul li a.active {
     position: relative;
     max-width: 670px;
     text-align: justify;
+    margin-right: 55px;
 }
 
 .content .textBox h2 {
@@ -98,6 +99,7 @@ header ul li a.active {
     border-radius: 40px;
     font-weight: 500;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 .content .imgBox {
     width: 1000px;
