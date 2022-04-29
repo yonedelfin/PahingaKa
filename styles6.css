@@ -12,6 +12,9 @@ section {
 body {
     min-height: 100vh;
     background: linear-gradient(#98c9cd 3%, #e6c3c1 60%, #e4989e 100% );
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
@@ -64,7 +67,7 @@ header ul li a.active {
 
 .content {
     position: relative;
-    width: 100%;
+    width: 1500px;
     display: flex;
     justify-content: space-between;
     align-items: center;  
@@ -76,7 +79,7 @@ header ul li a.active {
     position: relative;
     max-width: 800px;
     text-align: justify;
-    margin-right: 150px;
+    margin-right: 25px;
 }
 
 .content .textBox h2 {
@@ -96,6 +99,7 @@ header ul li a.active {
     border-radius: 40px;
     font-weight: 500;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 .content .imgBox {
     width: 1000px;
